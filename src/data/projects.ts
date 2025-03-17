@@ -1,74 +1,62 @@
 export const projects = [
     {
-        slug: "1",
-        title: "Widget Customization Platform",
-        description: "A customizable widget platform that lets users create and embed personalized widgets with ease. Supports authentication, multiple widgets, and styling options.",
-        image: "/images/project1.webp",
-        details: `Description:
-This platform allows users to create and customize embeddable widgets for various use cases, such as displaying information on Notion pages. Users can generate a unique widget URL with default settings, then configure its appearance, fonts, and time zones according to their preferences.
-
-Features:
-
-Customizable Widgets – Users can modify widget settings but cannot change the widget type.
-Multiple Widget Creation – Each user can create multiple widgets.
-Magic Link & Google Authentication – Secure, passwordless login.
-Free & Premium Roles – Different access levels for users.
-Supabase Database – Efficient data storage and retrieval.
-Next.js & Express.js Backend – Ensuring a fast and scalable architecture.
-This project is built with Next.js (App Router) for frontend and Express.js for backend, integrating with Supabase for authentication and data storage. `,
+        title: "Widget Embedding Platform",
+        description: "Create and embed customizable widgets with this Next.js platform featuring user authentication, payment integration, and an intuitive settings panel.",
+        imageSrc: "/images/project-1.webp",
+        githubUrl: "https://github.com/username/widget-platform",
+        techStack: ["Next.js", "Supabase", "Tailwind CSS", "Vercel"],
+        isPrivate: true,
     },
     {
-        slug: "2",
-        title: " News Portal Backend with Laravel",
-        description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
-        image: "/images/projects2.png",
-        details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
-
-🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
+        title: "News Portal REST API",
+        description: "Laravel-powered backend for news management with secure authentication, role-based permissions, and efficient content delivery system.",
+        imageSrc: "/images/project-2.webp",
+        githubUrl: "https://github.com/Pinoivceu/news-backend",
+        techStack: ["Laravel", "MySQL", "JWT", "PHP"],
+        isPrivate: false,
     },
-//     {
-//         slug: "3",
-//         title: " News Portal Backend with Laravel",
-//         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
-//         image: "/images/projects2.png",
-//         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
+    {
+        title: "Community Complaint System API",
+        description: "CodeIgniter 4 API with JWT authentication for infrastructure issue reporting, featuring photo uploads, status tracking, and admin response management.",
+        imageSrc: "/images/project-3.webp",
+        githubUrl: "https://github.com/Pinoivceu/backend-complaint",
+        techStack: ["CodeIgniter 4", "MySQL", "JWT", "PHP"],
+        isPrivate: false,
+    }
+    //     {
+    //         slug: "4",
+    //         title: " News Portal Backend with Laravel",
+    //         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
+    //         image: "/images/projects2.png",
+    //         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
 
-// 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
-//     },
-//     {
-//         slug: "4",
-//         title: " News Portal Backend with Laravel",
-//         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
-//         image: "/images/projects2.png",
-//         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
+    // 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
+    //     },
+    //     {
+    //         slug: "5",
+    //         title: " News Portal Backend with Laravel",
+    //         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
+    //         image: "/images/projects2.png",
+    //         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
 
-// 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
-//     },
-//     {
-//         slug: "5",
-//         title: " News Portal Backend with Laravel",
-//         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
-//         image: "/images/projects2.png",
-//         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
+    // 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
+    //     },
+    //     {
+    //         slug: "6",
+    //         title: " News Portal Backend with Laravel",
+    //         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
+    //         image: "/images/projects2.png",
+    //         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
 
-// 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
-//     },
-//     {
-//         slug: "6",
-//         title: " News Portal Backend with Laravel",
-//         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
-//         image: "/images/projects2.png",
-//         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
+    // 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
+    //     },
+    //     {
+    //         slug: "7",
+    //         title: " News Portal Backend with Laravel",
+    //         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
+    //         image: "/images/projects2.png",
+    //         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
 
-// 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
-//     },
-//     {
-//         slug: "7",
-//         title: " News Portal Backend with Laravel",
-//         description: "A powerful Laravel-based backend for managing news and articles, featuring secure authentication, role-based access, and seamless content management.",
-//         image: "/images/projects2.png",
-//         details: `A scalable and feature-rich backend built with Laravel to power a dynamic news and article portal. This system provides secure user authentication, role-based access (admin, editor, reader), and efficient content management. It supports RESTful API integration, image uploads, and SEO optimization, ensuring smooth and structured content delivery. The backend is optimized for performance, security, and easy maintenance, making it suitable for online news platforms, blogs, and media websites.
-
-// 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
-//     },
+    // 🎯 Tech Stack: Laravel, MySQL/PostgreSQL, REST API, JWT Authentication, Cloud Storage (optional for media)`,
+    //     },
 ];

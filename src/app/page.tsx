@@ -1,5 +1,5 @@
 import Footer from "./components/footer";
-import AboutMe from "./about/page";
+import AboutMe from "./components/about";
 import PortfolioPage from "./components/projects";
 
 export default function Home() {
